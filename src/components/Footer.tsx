@@ -79,11 +79,11 @@ const Footer = () => {
             </h4>
             <div className="space-y-3">
               <a
-                href="tel:+260971234567"
+                href="tel:+260971716370"
                 className="flex items-center gap-3 text-cream/70 hover:text-accent transition-colors text-sm"
               >
                 <Phone className="h-4 w-4 flex-shrink-0" />
-                +260 97 123 4567
+                +260 971 716 370
               </a>
               <a
                 href="mailto:info@maajabu.co.zm"

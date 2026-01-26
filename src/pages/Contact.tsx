@@ -1,8 +1,8 @@
 import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const WHATSAPP_NUMBER = "260971234567";
-const PHONE_NUMBER = "+260971234567";
+const WHATSAPP_NUMBER = "260971716370";
+const PHONE_NUMBER = "+260971716370";
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
@@ -53,7 +53,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground">Phone</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      +260 97 123 4567
+                      +260 971 716 370
                     </p>
                   </div>
                 </a>
