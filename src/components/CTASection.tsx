@@ -1,8 +1,8 @@
 import { MessageCircle, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const WHATSAPP_NUMBER = "260971234567";
-const PHONE_NUMBER = "+260971234567";
+const WHATSAPP_NUMBER = "260971716370";
+const PHONE_NUMBER = "+260971716370";
 
 const CTASection = () => {
   const handleWhatsAppClick = () => {

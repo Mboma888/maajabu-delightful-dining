@@ -4,7 +4,7 @@ import { useCart } from "@/contexts/CartContext";
 import { formatPrice } from "@/data/menuData";
 import { cn } from "@/lib/utils";
 
-const WHATSAPP_NUMBER = "260971234567"; // Replace with actual number
+const WHATSAPP_NUMBER = "260971716370";
 
 const Cart = () => {
   const {
