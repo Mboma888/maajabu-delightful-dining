@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "260971234567";
+const WHATSAPP_NUMBER = "260971716370";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {

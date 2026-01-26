@@ -8,9 +8,9 @@ const FeaturedItems = () => {
   const popularItems = getPopularItems().slice(0, 6);
 
   return (
-    <section className="section-padding bg-muted/30">
+    <section className="section-padding bg-background">
       <div className="container-custom">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-10 gap-4">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 gap-4">
           <div>
             <span className="text-primary font-medium text-sm tracking-wider uppercase">
               Customer Favorites
@@ -27,14 +27,15 @@ const FeaturedItems = () => {
           </Button>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Strange Taco Bar style 2-column grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {popularItems.map((item, index) => (
             <div
               key={item.id}
               className="animate-fade-up"
-              style={{ animationDelay: `${index * 100}ms` }}
+              style={{ animationDelay: `${index * 80}ms` }}
             >
-              <MenuCard item={item} />
+              <MenuCard item={item} variant="horizontal" />
             </div>
           ))}
         </div>
