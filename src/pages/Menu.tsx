@@ -79,15 +79,15 @@ const Menu = () => {
             </p>
           </div>
 
-          {/* Items Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Items Grid - 2 column horizontal layout like Strange Taco Bar */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {menuItems.map((item, index) => (
               <div
                 key={item.id}
                 className="animate-fade-up"
                 style={{ animationDelay: `${index * 50}ms` }}
               >
-                <MenuCard item={item} />
+                <MenuCard item={item} variant="horizontal" />
               </div>
             ))}
           </div>
